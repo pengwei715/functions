@@ -1,0 +1,6 @@
+numpy
+librosa
+pytest
+matplotlib
+noisereduce
+soundfile
