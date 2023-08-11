@@ -29,3 +29,29 @@
 #    - clustering result only makes sense inside of one audio file
 #    - offline clustering needs to use. AHC, K-means++, Spectral clustering. 
 
+# For each of the following funcitons, we can give different options to the user to choose.
+
+def remove_noise_reverb():
+    pass
+
+def extract_feature():
+    pass
+
+def vad():
+    pass
+
+def speaker_segmentation():
+    pass
+
+def speaker_embedding():
+    pass
+
+
+def speaker_clustering():
+    pass
+
+
+
+
+def diarize_conversation():
+    pass
