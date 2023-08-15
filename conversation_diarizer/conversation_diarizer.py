@@ -38,8 +38,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-# class that use the noisereduce package to reduce the noise
-# https://pypi.org/project/noisereduce/
 import numpy as np
 import librosa
 import matplotlib.pyplot as plt
@@ -47,6 +45,8 @@ import noisereduce as nr
 import soundfile as sf
 
 
+# class that use the noisereduce package to reduce the noise
+# https://pypi.org/project/noisereduce/
 class NoiseReducer:
     def __init__(self, sr=None, prop_decrease=1.0, verbose=False, **kwargs):
         """
