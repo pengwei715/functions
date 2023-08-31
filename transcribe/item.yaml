@@ -5,7 +5,7 @@ categories:
 description: Transcribe audio files into text files
 doc: ''
 example: transcribe.ipynb
-generationDate: 2023-07-13:11-20
+generationDate: 2023-08-31:11-20
 hidden: false
 icon: ''
 labels:
@@ -23,5 +23,12 @@ spec:
   requirements:
     - openai-whisper
     - tqdm
+    - ffmpeg
+    - ffprobe
+    - librosa
+    - pyannote.core
+    - torch
+    - torchaudio
+    - pydub
 url: ''
 version: 0.0.1
