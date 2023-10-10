@@ -1,7 +1,9 @@
 tqdm
+ffmpeg
+ffprobe
 Cython
 Cmake
-pyannote.core[notebook]
+pyannote.core
 torch
 torchaudio
 pydub
